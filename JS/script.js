@@ -9,7 +9,7 @@ const products = [
 //Функция для формирования верстки каждого товара
 const renderProduct = (product, img='img/1.jpg') => {
   return `<div class="product-item">
-              <h3>${product.title}</h3>
+              <h3 class="product-title">${product.title}</h3>
               <img src="${img}" class="product-img">
               <p>${product.price}</p>
               <button class="buy-btn">Купить</button>

@@ -1,5 +1,6 @@
 .container {
     width: 75%;
+    min-width: 200px;
     margin: 0 auto;
 }
 .products {
@@ -8,13 +9,27 @@
 }
 .product-item {
     background-color: cornsilk;
-    width: 150px;
+    width: 200px;
     margin: 10px;
     border: 1px solid black;
+    text-align: center
 }
 .product-img {
     display: block;
     box-sizing: border-box;
     margin: 0 auto;
     width: 70%;
+}
+.product-title {
+    text-transform: uppercase;
+}
+.buy-btn {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    border-top: 1px solid black;
+}
+.buy-btn:active {
+    background-color: greenyellow;
 }
